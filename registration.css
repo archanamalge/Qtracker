@@ -7,14 +7,16 @@
 	height: 100vh;
 	width: 70%;
 	position: relative;
-	top: 0px;
-	display: flex;
+	top: 200px;
+	margin-left: 100px;
+	margin-top: 50px;
 	justify-content: center;
 	align-items: center;
+	z-index: -10;
 }
 .registration-form{
 	height: 450px;
-	margin-top: 100px;
+	margin-top: 500px;
 	width: 1000px;
 	position: absolute;
 	padding: 60px;
