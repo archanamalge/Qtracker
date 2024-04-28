@@ -30,6 +30,7 @@
 label{
 	color: black;
 	font-weight: bolder;
+	margin-left: 150px;
 }
 
 .logo{
@@ -54,13 +55,13 @@ label{
 input{
 	align-items: center;
 	margin: center;
-	margin-left: 100px;
+	margin-left: 150px;
 }
 .btn{
 	align-items: center;
-	margin-left: 100px;
+	margin-left: 150px;
 }
 .eu{
 	align-items: center;
-	margin-left: 100px;
+	margin-left: 150px;
 }
