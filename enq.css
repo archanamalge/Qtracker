@@ -3,7 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
-.data-entry-section{
+.Enquiry-section{
     position:fixed;
     top: 93px;
     width: 100%;
@@ -11,20 +11,18 @@
 
 }
 .contianer-form{
+    height: 500px;
     width: 80%;
     margin-left: 10%;
+    margin-top: 700px;
 }
-#student-heading{
+#Contact-heading{
     margin-bottom: 50px;
-}
-.bgimg1{
-    height: 90vh;
-    width: 100%;
-    z-index: -100;
-    position: absolute; 
-    opacity: 0.5;
 }
 label{
     font-weight: bolder;
     font-size: 20px;
+}
+.d1{
+    margin-left: 300px;
 }

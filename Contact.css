@@ -1,0 +1,63 @@
+*{
+	padding: 0px;
+	margin-top: 0px;
+}
+/*.tbl1{
+	margin-top: 300px;
+	font-size: 20px;
+	border:5;
+	height: 400px;
+	width: 50%;
+	margin-left: 400px;
+}
+#Contact{
+	margin-top: 250px;
+    height:600px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+.tbl{
+    margin-left: 5%;
+}
+.tbl tr td{
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    transition-duration: 1.5s;
+}
+.Contact-subheading{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    font-variant: small-caps;
+}
+.detailedContact{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(109,101,101);
+    line-height: 40px;
+    word-spacing: 3px;
+    margin-top: 20px;
+}*/
+.Contactinfo{
+    border: 2px solid whitesmoke;
+    position: relative;
+    top: 100px;
+    z-index: -4;
+}
+.info{
+    font-size: 18px;
+}
+.getb
+{
+    margin-top: 0px;
+    background-color: orange;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: white;
+}
