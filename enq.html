@@ -17,6 +17,7 @@
 		<div class="navigation-bar">
 			
 					<nav class="navbar navbar-expand-lg navbar-light">
+
   <a class="navbar-brand" href="#"><span class="q">Q</span><span class="tracker">TRACKER</span></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -53,13 +54,17 @@
   </div>
 </nav>
   </section>
+    
 
 			<!-- nav ends here -->
-		</div>
+
+    
+
         <div class="Enquiry-section" >
-            <h1 class="heading" id="Contact-heading" align="center">Enquiry</h1>
-                <div class="contianer-form" style="margin-left: 350px;">
-                    <form style="border: 2px solid black;">
+                <h1 class="heading" align="center" style="border: 2px solid black;" class="head1">Enquiry</h1>
+                <div class="contianer-form" style="margin-left: 580px;margin-top: 100px;" >
+                    <form style="width: 50%">
+                      <br>
                         <div class="form-row">
                           <div class="form-group col-md-6">
                             <input type="text" class="form-control" id="studentname" placeholder="Your Name">
@@ -69,22 +74,29 @@
 
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                              <input type="text" class="form-control" id="studentname" placeholder="Contact Number">
+                              <input type="number" class="form-control" id="studentname" placeholder="Contact Number" pattern="{0s-5}{1}{0-9}{9}">
                             </div>
                             <br>
                           </div>
-                            <div class="form-group col-md-6" >
+                        <div class="form-row">
+                          <div class="form-group col-md-6" >
                             <input type="email" class="form-control" id="studentemail" placeholder="Email">
                           </div>
+                        </div>
 
+                        <div class="form-row">
                            <div class="form-group col-md-6" >
                             <input type="text" class="form-control" id="studentemail" placeholder="Your Messeage">
                           </div>
                         </div>
                           <button type="submit" class="btn btn-primary" onclick="inp()">SUBMIT</button>
+                          <br>
+
+
                     </form>
+
                 </div>
-        </div>
+              </div>
   <script type="text/javascript" src="enq.js"></script>
 
 </body>
