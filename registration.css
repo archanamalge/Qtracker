@@ -8,10 +8,14 @@
 	width: 70%;
 	position: absolute;
 	top: 200px;
-	margin-left: 100px;
+	margin-left: 200px;
 	margin-top: 50px;
 	justify-content: center;
-	align-items: center;
+	
+}
+.bgimg{
+	height: 750px;
+	width: 100%;
 }
 .registration-form{
 	height: 450px;
